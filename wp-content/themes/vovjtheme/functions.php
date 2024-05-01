@@ -107,7 +107,9 @@ add_action( 'wp_enqueue_scripts', 'theme_scripts' );
 // custom functions end
 
 // CPT
-    // require get_template_directory() . '/includes/cpt/faq.php';
+    require get_template_directory() . '/includes/cpt/service.php';
+    require get_template_directory() . '/includes/cpt/blog.php';
+    require get_template_directory() . '/includes/cpt/project.php';
 // CPT end
 
 ?>

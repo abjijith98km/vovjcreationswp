@@ -28,6 +28,18 @@
 
 <body <?php body_class(); ?>>
 
+    <!--==============================
+     Preloader
+    ==============================-->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
     <!-- Mobile Menu     ============================== -->
     <div class="mobile-menu-wrapper">
         <div class="mobile-menu-area">
@@ -79,7 +91,7 @@
                     <?php while (have_rows('header_social_media', 'option')) : the_row();
                         $type = get_sub_field('type');
                         $link = get_sub_field('link');
-                      
+
                     ?>
                         <a href="<?php echo esc_url($link); ?>" target="_blank">
                             <span class="link-effect">
