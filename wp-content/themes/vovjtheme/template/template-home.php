@@ -340,8 +340,8 @@ if ($showhide_team_section) : ?>
         <div class="container">
             <div class="row gy-4 justify-content-center">
 
-                <?php if (have_rows('slides')) : ?>
-                    <?php while (have_rows('slides')) : the_row();
+                <?php if (have_rows('our_team_list')) : ?>
+                    <?php while (have_rows('our_team_list')) : the_row();
                         $image = get_sub_field('image');
                         $name = get_sub_field('name');
                         $designation = get_sub_field('designation');

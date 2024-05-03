@@ -6913,7 +6913,7 @@ ul.wp-block-latest-posts li:last-child {
 }
 
 .marquee-wrap {
-  background: #1601AC;
+  background: #000;
   padding: 31px 0;
 }
 .marquee-wrap .marquee__group .m-item {
