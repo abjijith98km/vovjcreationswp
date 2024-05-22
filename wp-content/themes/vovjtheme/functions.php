@@ -92,7 +92,13 @@ function theme_scripts() {
     wp_enqueue_script( 'theme-imagesloaded', get_template_directory_uri() . '/assets/js/imagesloaded.pkgd.min.js', array(), _S_VERSION, true );
     wp_enqueue_script( 'theme-isotops', get_template_directory_uri() . '/assets/js/isotope.pkgd.min.js', array(), _S_VERSION, true );
     wp_enqueue_script( 'theme-gsap', get_template_directory_uri() . '/assets/js/gsap.min.js', array(), _S_VERSION, true );
+
+    wp_enqueue_script( 'theme-scrollsmoother', get_template_directory_uri() . '/assets/js/ScrollSmoother.min.js', array(), _S_VERSION, true );
+    wp_enqueue_script('theme-scrolltriggerr', get_template_directory_uri() . '/assets/js/ScrollTrigger.min.js', array(), _S_VERSION, true );
+    wp_enqueue_script('theme-text', get_template_directory_uri() . '/assets/js/SplitText.min.js', array(), _S_VERSION, true );
+
     wp_enqueue_script( 'theme-twinmax', get_template_directory_uri() . '/assets/js/twinmax.js', array(), _S_VERSION, true );
+    wp_enqueue_script( 'theme-imagereveal', get_template_directory_uri() . '/assets/js/imageRevealHover.js', array(), _S_VERSION, true );
     wp_enqueue_script( 'theme-jarallaax', get_template_directory_uri() . '/assets/js/jarallax.min.js', array(), _S_VERSION, true );
     wp_enqueue_script( 'theme-marquee', get_template_directory_uri() . '/assets/js/jquery.marquee.min.js', array(), _S_VERSION, true );
     wp_enqueue_script( 'theme-waypoints', get_template_directory_uri() . '/assets/js/waypoints.js', array(), _S_VERSION, true );

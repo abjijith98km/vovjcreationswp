@@ -20,39 +20,22 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-// define( 'DB_NAME', 'vovjcreations' );
-
-// /** Database username */
-// define( 'DB_USER', 'root' );
-
-// /** Database password */
-// define( 'DB_PASSWORD', '' );
-
-// /** Database hostname */
-// define( 'DB_HOST', 'localhost' );
-
-// /** Database charset to use in creating database tables. */
-// define( 'DB_CHARSET', 'utf8mb4' );
-
-// /** The database collate type. Don't change this if in doubt. */
-// define( 'DB_COLLATE', '' );
-
-define('DB_NAME', 'wp_vovj');
+define( 'DB_NAME', 'vovjcreations' );
 
 /** Database username */
-define('DB_USER', 'wp_vovj_user');
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define('DB_PASSWORD', 'Imnotafraid@1998#');
+define( 'DB_PASSWORD', '' );
 
 /** Database hostname */
-define('DB_HOST', 'localhost');
+define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8mb4');
+define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The database collate type. Don't change this if in doubt. */
-define('DB_COLLATE', '');
+define( 'DB_COLLATE', '' );
 
 /**#@+
  * Authentication unique keys and salts.
